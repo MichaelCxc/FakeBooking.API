@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeBooking.API", "FakeBooking.API\FakeBooking.API.csproj", "{D50428E5-D4A4-4AFA-B948-646DCC880E73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D50428E5-D4A4-4AFA-B948-646DCC880E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50428E5-D4A4-4AFA-B948-646DCC880E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50428E5-D4A4-4AFA-B948-646DCC880E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50428E5-D4A4-4AFA-B948-646DCC880E73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA3497CC-F86A-4D99-9273-D576218B4D4C}
+	EndGlobalSection
+EndGlobal
