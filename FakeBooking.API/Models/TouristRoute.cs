@@ -29,5 +29,10 @@ namespace FakeBooking.API.Models
         public string Notes { get; set; }
         public ICollection<TouristRoutePicture> TouristRoutePictures { get; set; } 
             = new List<TouristRoutePicture>();
+
+        public double? Rating { get; set; } // Optional rating field, can be null if not rated yet
+        public TravelDays? TravelDays { get; set; } // Optional travel days field, can be null if not specified
+        public TripType? TripType { get; set; } // Optional trip type field, can be null if not specified
+        public DepartureCity? DepartureCity { get; set; } // Optional departure city field, can be null if not specified
     }
 }
